@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55db3779-ad85-4f66-89d5-e8df871d69a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asincrono_serie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asincrono_serie_array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/closure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/this.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/this2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/version_modulo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extender.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mixin.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="babel201605.iws" />
@@ -39,11 +35,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="closure.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="closure.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/closure.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
               <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prototipos.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prototipos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="492">
+              <caret line="50" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extender.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extender.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mixin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mixin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -72,6 +98,9 @@
         <option value="$PROJECT_DIR$/this.js" />
         <option value="$PROJECT_DIR$/this2.js" />
         <option value="$PROJECT_DIR$/closure.js" />
+        <option value="$PROJECT_DIR$/prototipos.js" />
+        <option value="$PROJECT_DIR$/extender.js" />
+        <option value="$PROJECT_DIR$/mixin.js" />
       </list>
     </option>
   </component>
@@ -202,16 +231,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1463503553181</updated>
-      <workItem from="1463503554356" duration="6552000" />
+      <workItem from="1463503554356" duration="10233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6552000" />
+    <option name="totallyTimeSpent" value="10233000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="-11" width="1802" height="1102" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24971363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -220,7 +249,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -324,6 +353,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototipos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="50" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mixin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding />
         </state>
       </provider>
