@@ -7,3 +7,4 @@ function pinta() {
     console.log('pinto tiene', pinto);
     var pinto = 'local value';
 }
+

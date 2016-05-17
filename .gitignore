@@ -1,0 +1,16 @@
+.vscode/
+**/.idea/
+
+#NodeModules
+**/node_modules/
+
+*css
+
+#Bower Components
+**/bower_components/
+
+#Dist
+**/dist/
+
+#SparRest BD
+**db/
