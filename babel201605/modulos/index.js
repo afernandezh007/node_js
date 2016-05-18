@@ -1,3 +1,7 @@
-/**
- * Created by neome on 18/05/2016.
- */
+"use strict";
+
+var modulo=require('./modulo');
+
+console.log(modulo);
+
+console.log(modulo.suma(5,6));
