@@ -3,7 +3,19 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.render('index', {title: 'Express'});
+
+    var segundo =(new Date()).getSeconds();
+
+    res.render('index', {
+            title: 'Express',
+            nombre: 'neo',
+            sinEscapar: '<script>document.write("hola soy un codigo");</script>',
+            condicion: {
+                segundo: segundo,
+                estado: segundo % 2 === 0
+            },
+        users: [{name:'Smith'},{name:'Jones'}, {name:'Brown'}]
+        });
 });
 
 router.get('/',function (req,res) {
