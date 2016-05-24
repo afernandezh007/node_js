@@ -25,11 +25,20 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//Conexion a mongodb con mongoose
+require('./lib/connectMongoose');
+
+//Modelos
+//los requiero solopara que mongoose los conozca
+// al iniciar la aplicación
+require('./models/Agente');
+
 app.use('/', require('./routes/index'));
 app.use('/users', require('./routes/users'));
 
 //API V1
 app.use('/api/v1/users', require('./routes/api/v1/users'));
+app.use('/api/v1/agentes', require('./routes/api/v1/agentes'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
