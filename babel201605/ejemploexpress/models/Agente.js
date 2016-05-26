@@ -10,12 +10,14 @@ var agenteSchema = mongoose.Schema({
 });
 
 //metodo estatico para el modelo
-agenteSchema.statics.list = function (query, start, limit, cb) {
+agenteSchema.statics.list = function (query, start, limit,sort, cb) {
 
     var consulta = Agente.find(query);
 
     consulta.skip(start);
     consulta.limit(limit);
+    consulta.sort(sort);
+    consulta.select('name age');
 
     consulta.exec(function (err, rows) {
         if (err) {
